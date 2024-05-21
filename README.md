@@ -1,42 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vending Machine Interface
+
+This is a touch screen Vending machine interface implemented in **Next.js**.
 
 ## Getting Started
 
-First, set husky
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-```bash
-npm run husky
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+- **Node.js**
+- **npm** (Node Package Manager)
+
+### Installing
+
+1. Clone the repository to your local machine:
+
+```
+git clone https://github.com/angerris/vending-machine.git
 ```
 
-Run the development server:
+2. Navigate into the project directory:
 
-```bash
+```
+cd vending-machine
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Run the project:
+
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Note: this project is designed for a touch screen vending machine device, portrait mode resolution.

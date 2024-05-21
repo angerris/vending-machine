@@ -143,7 +143,7 @@ const FullScreenImage = ({ src }) => (
       width: "100%",
       height: "100%",
       background: `url(${src}) no-repeat center center`,
-      backgroundSize: "cover"
+      backgroundSize: "cover",
     }}
   />
 );

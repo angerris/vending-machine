@@ -1,0 +1,43 @@
+@use "./variables.scss" as v;
+
+//global reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+//styles
+.navbar {
+  font-size: 32px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+// flex shortcuts
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.gap {
+  gap: 24px;
+}
+//columns
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: calc(v.$col-width * #{$i});
+  }
+}

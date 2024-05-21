@@ -1,0 +1,35 @@
+@use "./../../styles/variables.scss" as v;
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+.content {
+  display: flex;
+  margin: 150px 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  justify-content: center;
+  background-color: v.$grey-light;
+  padding: 32px;
+  flex-wrap: wrap;
+  height: calc(100vh - 300px);
+}
+.content::-webkit-scrollbar {
+  width: 9px;
+  border-radius: 12px;
+  background-color: v.$grey;
+}
+.content::-webkit-scrollbar-thumb {
+  border-radius: 9px;
+  background: v.$primary-gradient;
+  width: 9px;
+}

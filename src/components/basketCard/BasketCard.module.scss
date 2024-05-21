@@ -1,0 +1,40 @@
+@use "./../../styles/variables.scss" as v;
+
+.card {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 265px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 28px;
+  background-color: v.$white;
+  transition: 0.3s;
+  box-shadow: v.$shadow;
+}
+.cardContent {
+  justify-content: flex-start;
+  gap: 14px;
+}
+.title {
+  font-size: 40px;
+  font-weight: 500;
+}
+.price {
+  font-size: 40px;
+  font-weight: 700;
+}
+.cardImg {
+  height: 100%;
+  margin: 8px 0;
+  object-fit: contain;
+}
+.deleteBtn {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.buttonGroup {
+  margin-top: 14px;
+}

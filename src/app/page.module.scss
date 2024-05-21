@@ -1,0 +1,24 @@
+@use "./../styles/variables.scss" as v;
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 150px 0;
+  overflow-y: auto;
+  background-color: v.$grey-light;
+  height: calc(100vh - 300px);
+  font-size: 60px;
+  padding: 32px;
+}
+.content::-webkit-scrollbar {
+  width: 9px;
+  border-radius: 12px;
+  background-color: v.$grey;
+}
+.content::-webkit-scrollbar-thumb {
+  border-radius: 9px;
+  background: v.$primary-gradient;
+  width: 9px;
+}

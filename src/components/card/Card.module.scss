@@ -1,0 +1,32 @@
+@use "./../../styles/variables.scss" as v;
+
+.card {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 144px;
+  height: 265px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 28px;
+  background-color: v.$white;
+  transition: 0.3s;
+  box-shadow: v.$shadow;
+  &:active {
+    transition: 0.3s;
+    opacity: 0.8;
+    box-shadow: transparent;
+  }
+}
+.title {
+  font-size: 19px;
+  font-weight: 500;
+}
+.price {
+  font-size: 28px;
+  font-weight: 700;
+}
+.cardImg {
+  width: 90%;
+  margin: 8px 0;
+}

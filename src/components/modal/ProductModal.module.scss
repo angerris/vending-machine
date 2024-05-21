@@ -1,0 +1,29 @@
+.modalBody {
+  position: relative;
+  display: flex;
+  color: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.img {
+  width: 80%;
+  margin: 24px 0;
+}
+.total {
+  margin-bottom: 32px;
+  align-items: center;
+  gap: 16px;
+  .totalTitle {
+    font-size: 32px;
+  }
+  .totalPrice {
+    font-size: 48px;
+    font-weight: bold;
+  }
+}

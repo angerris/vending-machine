@@ -1,0 +1,6 @@
+@use "./../../styles/variables.scss" as v;
+.footer {
+  z-index: 3;
+  bottom: 0;
+  background: v.$gradient-reversed;
+}
